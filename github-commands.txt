@@ -1,0 +1,14 @@
+Prior to the Heroku deployment:
+Upload your project to Github.
+
+    Create a new repository in Github.
+    Go to your project on your local machine.
+    Open a gitbash from your working folder/project.
+    Initialize the local directory as a Git repository ($ git init)
+    Add the files in your new local repository. This stages them for the first commit ($ git add .)
+    Commit the files that you’ve staged in your local repository. ($ git commit -m "First commit")
+    At the top of your GitHub repository’s Quick Setup page, click to copy the remote repository URL.
+    Set remote repository from gitbash ($ git remote add origin remote_repository_URL)
+    Verify remote repository ($ git remote -v)
+    Push changes in your local repository to your remote repository ($ git push origin master)
+
